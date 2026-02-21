@@ -1,0 +1,37 @@
+{
+  "appId": "com.bpmer.app",
+  "productName": "BPMer",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "main.js",
+    "preload.js",
+    "src/**/*",
+    "frontend/**/*",
+    "backend/**/*",
+    "prompts/**/*",
+    "data/**/*",
+    "node_modules/**/*",
+    "!node_modules/**/*.{md,ts,map}",
+    "!**/*.{ts,map}"
+  ],
+  "win": {
+    "target": "nsis",
+    "icon": "assets/icon.ico"
+  },
+  "mac": {
+    "target": "dmg",
+    "icon": "assets/icon.icns",
+    "category": "public.app-category.music"
+  },
+  "linux": {
+    "target": "AppImage",
+    "icon": "assets/icon.png",
+    "category": "Audio"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  }
+}

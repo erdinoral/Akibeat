@@ -1,0 +1,122 @@
+[
+  {
+    "input": {
+      "analysis": {
+        "bpm": 150,
+        "key": "C Minor",
+        "energy": 85,
+        "genre": "Dark Phonk"
+      },
+      "user_request": "Daha agresif ve karanlık yap"
+    },
+    "output": "[Style: Hardcore Phonk, Sub-genre: Dark, Mood: Aggressive, Dark, Tempo: 150BPM, Key: C Minor, Tags: Distorted Bass, Heavy 808, Memphis Vocals, Cowbell Overdrive, Dark Atmosphere]"
+  },
+  {
+    "input": {
+      "analysis": {
+        "bpm": 140,
+        "key": "A Minor",
+        "energy": 75,
+        "genre": "Drift Phonk"
+      },
+      "user_request": "Gece sürüşü moduna sok"
+    },
+    "output": "[Style: Drift Phonk, Sub-genre: Night Drive, Mood: Energetic, Atmospheric, Tempo: 140BPM, Key: A Minor, Tags: Fast Paced, Reverb Bass, Synth Melodies, High Speed, Night Vibes]"
+  },
+  {
+    "input": {
+      "analysis": {
+        "bpm": 130,
+        "key": "F Minor",
+        "energy": 70,
+        "genre": "Dark Phonk"
+      },
+      "user_request": "Daha yavaş ve ambient yap"
+    },
+    "output": "[Style: Ambient Phonk, Sub-genre: Chill, Mood: Relaxed, Atmospheric, Tempo: 130BPM, Key: F Minor, Tags: Soft Bass, Ambient Pads, Minimal Drums, Reverb, Chill Vibes]"
+  },
+  {
+    "input": {
+      "analysis": {
+        "bpm": 160,
+        "key": "D Minor",
+        "energy": 90,
+        "genre": "Drift Phonk"
+      },
+      "user_request": "Maksimum enerji ve hız"
+    },
+    "output": "[Style: Hardcore Phonk, Sub-genre: Speed, Mood: Aggressive, High Energy, Tempo: 160BPM, Key: D Minor, Tags: Extreme Speed, Distorted 808, Fast Paced, High Energy, Maximum Intensity]"
+  },
+  {
+    "input": {
+      "analysis": {
+        "bpm": 145,
+        "key": "E Minor",
+        "energy": 80,
+        "genre": "Dark Phonk"
+      },
+      "user_request": "Memphis rap tarzı vokaller ekle"
+    },
+    "output": "[Style: Memphis Phonk, Sub-genre: Dark, Mood: Aggressive, Tempo: 145BPM, Key: E Minor, Tags: Memphis Vocals, Distorted Bass, 808 Kick, Cowbell, Old School Rap]"
+  },
+  {
+    "input": {
+      "analysis": {
+        "bpm": 135,
+        "key": "G Minor",
+        "energy": 65,
+        "genre": "Ambient"
+      },
+      "user_request": "Daha sert ve phonk tarzına çevir"
+    },
+    "output": "[Style: Phonk, Sub-genre: Dark, Mood: Aggressive, Tempo: 135BPM, Key: G Minor, Tags: Heavy 808, Distorted Bass, Cowbell, Memphis Style, Dark Vibes]"
+  },
+  {
+    "input": {
+      "analysis": {
+        "bpm": 155,
+        "key": "B Minor",
+        "energy": 88,
+        "genre": "Drift Phonk"
+      },
+      "user_request": "Klasik drift phonk sound"
+    },
+    "output": "[Style: Drift Phonk, Sub-genre: Classic, Mood: Energetic, Tempo: 155BPM, Key: B Minor, Tags: Classic 808, Reverb Bass, Synth Leads, Fast Paced, Drift Vibes]"
+  },
+  {
+    "input": {
+      "analysis": {
+        "bpm": 125,
+        "key": "C# Minor",
+        "energy": 60,
+        "genre": "Ambient"
+      },
+      "user_request": "Daha agresif ve hızlı yap"
+    },
+    "output": "[Style: Phonk, Sub-genre: Aggressive, Mood: Aggressive, High Energy, Tempo: 125BPM, Key: C# Minor, Tags: Distorted Bass, Heavy 808, Fast Paced, Aggressive Drums, High Speed]"
+  },
+  {
+    "input": {
+      "analysis": {
+        "bpm": 148,
+        "key": "A# Minor",
+        "energy": 82,
+        "genre": "Dark Phonk"
+      },
+      "user_request": "Cowbell ve 808'i öne çıkar"
+    },
+    "output": "[Style: Hardcore Phonk, Sub-genre: Dark, Mood: Aggressive, Tempo: 148BPM, Key: A# Minor, Tags: Cowbell Overdrive, Heavy 808, Distorted Bass, Memphis Vocals, Punchy Drums]"
+  },
+  {
+    "input": {
+      "analysis": {
+        "bpm": 142,
+        "key": "D# Minor",
+        "energy": 78,
+        "genre": "Drift Phonk"
+      },
+      "user_request": "Gece sürüşü atmosferi ekle"
+    },
+    "output": "[Style: Drift Phonk, Sub-genre: Night Drive, Mood: Atmospheric, Energetic, Tempo: 142BPM, Key: D# Minor, Tags: Night Vibes, Reverb Bass, Synth Pads, Fast Paced, Atmospheric]"
+  }
+]

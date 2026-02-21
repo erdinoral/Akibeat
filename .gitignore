@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+data/database.json
+backend/models/*.h5
+backend/models/*.pth
+backend/models/*.pkl
+*.egg-info/

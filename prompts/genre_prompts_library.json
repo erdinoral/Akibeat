@@ -1,0 +1,178 @@
+{
+  "genre_templates": {
+    "Rock": {
+      "base_tags": ["Distorted electric guitar", "Live drum room", "Raw energy", "Aggressive vocals", "Power chords"],
+      "mood_tags": ["Rebellious", "Energetic", "Powerful", "Gritty", "Anthemic"],
+      "technical_tags": ["Heavy distortion", "Crunchy guitars", "Punchy drums", "Vocal presence 1-5kHz"]
+    },
+    "Metal": {
+      "base_tags": ["Extreme distortion", "Double-kick drums", "Aggressive vocals", "Heavy riffs", "Brutal energy"],
+      "mood_tags": ["Dark", "Intense", "Brutal", "Aggressive", "Powerful"],
+      "technical_tags": ["High gain distortion", "Fast tempo", "Complex rhythms", "Screaming vocals"]
+    },
+    "EDM": {
+      "base_tags": ["Analog synth sequences", "Driving kick", "Four-on-the-floor", "Electronic atmosphere", "Club vibe"],
+      "mood_tags": ["Energetic", "Euphoric", "Festival", "Danceable", "Uplifting"],
+      "technical_tags": ["Sub-bass focus", "Sidechain compression", "Rising leads", "Big room sound"]
+    },
+    "Techno": {
+      "base_tags": ["Analog synth sequences", "Industrial atmosphere", "Driving kick", "Dark club vibe", "Minimal"],
+      "mood_tags": ["Dark", "Hypnotic", "Underground", "Industrial", "Mechanical"],
+      "technical_tags": ["Heavy sub-bass", "Repetitive patterns", "Filter sweeps", "909 drums"]
+    },
+    "Hip-Hop": {
+      "base_tags": ["Boom bap rhythm", "Lo-fi textures", "Heavy 808s", "Street atmosphere", "Rap vocals"],
+      "mood_tags": ["Gritty", "Urban", "Confident", "Smooth", "Street"],
+      "technical_tags": ["808 bass", "Crisp hi-hats", "Sampled drums", "Vocal clarity"]
+    },
+    "Trap": {
+      "base_tags": ["Heavy 808s", "Sharp hi-hats", "Dark atmosphere", "Trap beats", "Bass-heavy"],
+      "mood_tags": ["Dark", "Aggressive", "Hype", "Street", "Intense"],
+      "technical_tags": ["Sub-bass 808", "Triplet hi-hats", "Reverb tails", "Sidechain effects"]
+    },
+    "Pop": {
+      "base_tags": ["Polished production", "Catchy melodies", "Vocal-forward", "Clean mix", "Radio-ready"],
+      "mood_tags": ["Upbeat", "Catchy", "Energetic", "Positive", "Mainstream"],
+      "technical_tags": ["Vocal brightness 1-5kHz", "Balanced spectrum", "Compressed dynamics", "Shiny high-end"]
+    },
+    "Jazz": {
+      "base_tags": ["Smooth saxophone", "Brushed snare", "Sophisticated chords", "Lounge ambiance", "Acoustic instruments"],
+      "mood_tags": ["Smooth", "Sophisticated", "Relaxed", "Elegant", "Intimate"],
+      "technical_tags": ["Wide dynamic range", "Natural acoustics", "Minimal compression", "Warm mid-range"]
+    },
+    "Classical": {
+      "base_tags": ["Orchestral arrangement", "Natural acoustics", "Wide dynamic range", "Acoustic instruments", "Concert hall"],
+      "mood_tags": ["Elegant", "Dramatic", "Emotional", "Sophisticated", "Timeless"],
+      "technical_tags": ["Minimal compression", "Natural reverb", "Wide stereo image", "Preserved dynamics"]
+    },
+    "Dark Phonk": {
+      "base_tags": ["Heavy 808s", "Lo-fi textures", "Dark atmosphere", "Memphis samples", "Vinyl crackle"],
+      "mood_tags": ["Dark", "Mysterious", "Underground", "Sinister", "Eerie"],
+      "technical_tags": ["Sub-bass focus", "Lo-fi processing", "Chopped samples", "Gritty textures"]
+    },
+    "Drift Phonk": {
+      "base_tags": ["High-speed racing", "Aggressive bass", "Tokyo street", "Racing vibe", "Fast tempo"],
+      "mood_tags": ["Energetic", "Adrenaline", "Fast-paced", "Racing", "Intense"],
+      "technical_tags": ["Heavy bass", "Sharp transients", "High BPM", "Driving rhythm"]
+    },
+    "Ambient": {
+      "base_tags": ["Atmospheric textures", "Minimal beats", "Wide soundscape", "Ethereal", "Spacey"],
+      "mood_tags": ["Relaxing", "Meditative", "Dreamy", "Peaceful", "Ethereal"],
+      "technical_tags": ["Wide dynamic range", "Reverb-heavy", "Sparse arrangement", "Natural decay"]
+    },
+    "Soul_RnB": {
+      "base_tags": ["Smooth vocal runs", "Velvety rhodes", "Groovy bassline", "Late night vibes", "Neo-soul chords"],
+      "mood_tags": ["Sensual", "Romantic", "Smooth", "Soulful", "Sophisticated"],
+      "technical_tags": ["Warm low-mids", "Vocal intimacy", "Soft transients", "Rich harmonic content"]
+    },
+    "Reggaeton_Latin": {
+      "base_tags": ["Dembow rhythm", "Synthetic percussions", "Tropical atmosphere", "Reggaeton bass", "Dancehall influence"],
+      "mood_tags": ["Sexy", "Energetic", "Summer", "Danceable", "Festive"],
+      "technical_tags": ["Kick-heavy low end", "Snappy percussions", "Compressed vocals", "Wide stereo image"]
+    },
+    "Funk_Disco": {
+      "base_tags": ["Slap bass", "Wha-wha guitar", "Four-on-the-floor kick", "Brass section", "Groovy percussion"],
+      "mood_tags": ["Funky", "Joyful", "Uplifting", "Groovy", "Danceable"],
+      "technical_tags": ["Punchy snare", "Tight low-end", "Analog warmth", "Dynamic rhythmic movement"]
+    },
+    "Synthwave_Retrowave": {
+      "base_tags": ["80s analog synths", "LinnDrum samples", "Retro-future vibe", "Neon atmosphere", "Arpeggiated bass"],
+      "mood_tags": ["Nostalgic", "Epic", "Cinematic", "Retro", "Dreamy"],
+      "technical_tags": ["Gated reverb", "Chariots of Fire pads", "Analog saturation", "Vintage compression"]
+    },
+    "LoFi_HipHop": {
+      "base_tags": ["Dusty vinyl crackle", "Muted piano", "Chill hop drums", "Bitcrushed samples", "Late night study"],
+      "mood_tags": ["Chill", "Relaxed", "Nostalgic", "Cozzy", "Dreamy"],
+      "technical_tags": ["Low-pass filtering", "Tape hiss", "Wobbly pitch", "Sparse arrangement"]
+    },
+    "Drum_and_Bass": {
+      "base_tags": ["Fast breakbeats", "Reese bass", "Liquid atmosphere", "Jungle influence", "High energy"],
+      "mood_tags": ["Intense", "Euphoric", "Technical", "Dark", "Driving"],
+      "technical_tags": ["170+ BPM", "Sub-bass weight", "Complex drum programming", "Snappy snare"]
+    },
+    "Hyperpop": {
+      "base_tags": ["Glitched vocals", "Distorted synths", "Experimental sound", "High-pitched melodies", "Chaotic energy"],
+      "mood_tags": ["Bizarre", "Intense", "Futuristic", "Chaotic", "Sweet"],
+      "technical_tags": ["Heavy pitch correction", "Extreme distortion", "Digital artifacts", "Maximized loudness"]
+    },
+    "Country_Folk": {
+      "base_tags": ["Acoustic guitar", "Storytelling lyrics", "Steel guitar", "Fiddle textures", "Natural sound"],
+      "mood_tags": ["Honest", "Heartfelt", "Rootsy", "Nostalgic", "Down-to-earth"],
+      "technical_tags": ["Natural dynamics", "Mid-range clarity", "Clean vocals", "Acoustic space"]
+    },
+    "Blues": {
+      "base_tags": ["12-bar progression", "Emotional guitar solo", "Bending strings", "Raw vocals", "Shuffle rhythm"],
+      "mood_tags": ["Soulful", "Raw", "Deep", "Emotional", "Worn"],
+      "technical_tags": ["Tube amp grit", "Dynamic touch", "Warm harmonics", "Presence 2-4kHz"]
+    },
+    "Dubstep_Riddim": {
+      "base_tags": ["Wobble bass", "Half-time drums", "Growls", "Metallic textures", "Aggressive drops"],
+      "mood_tags": ["Brutal", "Mechanical", "Angry", "Hype", "Digital"],
+      "technical_tags": ["Sub-bass power", "Harsh mid-range", "Aggressive limiting", "Complex modulation"]
+    },
+    "City_Pop_Japan": {
+      "base_tags": ["80s Japanese funk", "Retro city vibes", "Vintage Yamaha DX7 synths", "Slap bass", "Nostalgic urban atmosphere"],
+      "mood_tags": ["Nostalgic", "Sophisticated", "Neon-lit", "Smooth", "Urban"],
+      "technical_tags": ["Crisp production", "Funk guitar licks", "Polished brass", "Bright mix"]
+    },
+    "J_Pop_Modern": {
+      "base_tags": ["High-energy idol pop", "Complex chord progressions", "Bright synthesizers", "Electronic percussion", "J-Pop melody"],
+      "mood_tags": ["Cheerful", "Hyperactive", "Positive", "Colorful", "Uplifting"],
+      "technical_tags": ["Vocal pitch correction", "Shimmering highs", "Dense arrangement", "Fast-paced"]
+    },
+    "Anime_Epic_Hybrid": {
+      "base_tags": ["Orchestral rock", "Dramatic strings", "Epic cinematic drums", "Choral elements", "Heroic themes"],
+      "mood_tags": ["Epic", "Emotional", "Grand", "Triumphant", "Cinematic"],
+      "technical_tags": ["Hybrid mastering", "Wide dynamic range", "Wall of sound", "Large hall reverb"]
+    },
+    "J_Rock": {
+      "base_tags": ["Visual Kei influence", "Fast guitar solos", "Melodic basslines", "High-pitched vocals", "Alternative rock"],
+      "mood_tags": ["Dramatic", "Energetic", "Edgy", "Passionate", "Expressive"],
+      "technical_tags": ["High-gain guitars", "Tight drumming", "Mid-range clarity", "Sustained leads"]
+    },
+    "Baroque_Classical": {
+      "base_tags": ["Harpsichord textures", "Polyphonic melodies", "Chamber orchestra", "Counterpoint", "String ensembles"],
+      "mood_tags": ["Elegant", "Sophisticated", "Intricate", "Formal", "Timeless"],
+      "technical_tags": ["Natural dynamics", "Mid-frequency focus", "Minimal reverb", "Acoustic clarity"]
+    },
+    "K_Pop_Performance": {
+      "base_tags": ["Multi-genre hybrid", "Synthetic basslines", "Vocal harmonies", "Performance-ready beats", "Future-pop"],
+      "mood_tags": ["Powerful", "Trendy", "Dynamic", "Confident", "Addictive"],
+      "technical_tags": ["Maximized loudness", "Polished vocal layers", "Punchy sub-bass", "Wide stereo image"]
+    },
+    "Afrobeats": {
+      "base_tags": ["West African rhythms", "Percussive grooves", "Melodic bass", "Dancehall elements", "Tropical textures"],
+      "mood_tags": ["Infectious", "Groovy", "Sun-drenched", "Happy", "Soulful"],
+      "technical_tags": ["Polyrhythmic focus", "Warm low-mids", "Crisp percussion", "Vocal reverb"]
+    },
+    "Bossa_Nova": {
+      "base_tags": ["Nylon-string guitar", "Jazz-influenced harmony", "Soft percussion", "Portuguese influence", "Lounge aesthetic"],
+      "mood_tags": ["Relaxed", "Sensual", "Elegant", "Breezy", "Sophisticated"],
+      "technical_tags": ["Soft transients", "Acoustic warmth", "Natural stereo width", "Gentle compression"]
+    },
+    "Future_Bass": {
+      "base_tags": ["Supersaw chords", "Vocal chops", "Hard-hitting traps drums", "Emotional melodies", "Synth swells"],
+      "mood_tags": ["Dreamy", "Energetic", "Euphoric", "Futuristic", "Emotional"],
+      "technical_tags": ["Sidechained chords", "Bright high-end", "Sharp transients", "Deep sub-bass"]
+    },
+    "Hardstyle": {
+      "base_tags": ["Distorted kick", "Euphoric leads", "Reverse bass", "Hardstyle screeches", "Rave energy"],
+      "mood_tags": ["Aggressive", "Euphoric", "High-energy", "Stomp-heavy", "Powerful"],
+      "technical_tags": ["Distorted low-end", "Redlined master", "Wall of sound", "Aggressive compression"]
+    }
+  },
+  "mood_mappings": {
+    "aggressive": ["Aggressive", "Brutal", "Violent", "Hardcore", "Intense"],
+    "melancholic": ["Sad", "Depressing", "Lonely", "Nostalgic", "Sorrowful"],
+    "energetic": ["Energetic", "Hype", "Power", "High Energy", "Adrenaline"],
+    "mysterious": ["Eerie", "Ghostly", "Mystical", "Spooky", "Occult"],
+    "dark": ["Dark", "Sinister", "Underground", "Shadow", "Horrorcore"],
+    "upbeat": ["Upbeat", "Positive", "Uplifting", "Happy", "Cheerful"]
+  },
+  "technical_mappings": {
+    "bass_heavy": ["Heavy 808", "Sub-bass Focus", "Distorted Bass", "Slide Bass", "Punchy Kick"],
+    "vocal_forward": ["Vocal Presence", "Vocal Clarity", "Vocal Brightness 1-5kHz", "Lead Vocals"],
+    "high_energy": ["High Energy", "Compressed", "Loud", "Punchy", "Aggressive"],
+    "dynamic": ["Wide Dynamic Range", "Natural Dynamics", "Preserved Transients", "Uncompressed"]
+  }
+}

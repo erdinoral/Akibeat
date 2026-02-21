@@ -1,0 +1,18 @@
+# Core requirements (works with all Python versions)
+librosa>=0.10.0
+numpy>=1.24.0
+scipy>=1.10.0
+soundfile>=0.12.0
+scikit-learn>=1.3.0
+
+# Lyrics extraction (optional but recommended)
+openai-whisper>=20231117
+demucs>=4.0.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# TensorFlow is optional - only needed if you want to use CNN model
+# Note: TensorFlow currently supports Python 3.8-3.11 only
+# For Python 3.12+, the app will automatically use rule-based classification
+# To install TensorFlow (Python 3.8-3.11 only), uncomment the line below:
+# tensorflow>=2.13.0

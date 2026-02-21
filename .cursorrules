@@ -1,0 +1,29 @@
+# BPMer - Phonk Müzik Analiz Uygulaması
+
+## Önemli Kurallar
+
+- **TAMAMEN OFFLINE**: Bu proje tamamen local-only çalışır. ASLA dış API çağrısı yapılmamalı (Ollama hariç, o da localhost:11434 üzerinden).
+- **Python Entegrasyonu**: Python ve Node.js arasındaki veri iletişimi JSON formatında yapılır.
+- **Ollama**: Ollama sadece localhost:11434 üzerinden çağrılır.
+- **Veri Depolama**: Tüm veriler yerel olarak saklanır (lowdb JSON dosyası).
+- **Dil**: Tüm arayüz Türkçe olacak.
+- **Cross-Platform**: Python scriptleri Windows, macOS ve Linux'ta çalışacak şekilde tasarlanmalı.
+
+## Proje Yapısı
+
+- `main.js`: Electron main process
+- `preload.js`: Context bridge güvenli API exposure
+- `frontend/src/`: React uygulaması
+- `backend/`: Python analiz scriptleri
+- `src/main/`: Node.js bridge dosyaları (pythonBridge.js, ollamaBridge.js, db.js)
+- `prompts/`: Few-shot prompt örnekleri
+- `data/`: lowdb veritabanı dosyası
+
+## Teknik Detaylar
+
+- Electron 28+
+- React 18+
+- Python 3.8+ (Librosa, NumPy, SciPy, TensorFlow/PyTorch)
+- Ollama (Gemma 2:4b veya Phi-3.5)
+- Tailwind CSS + Framer Motion
+- lowdb (JSON veritabanı)

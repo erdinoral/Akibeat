@@ -1,0 +1,26 @@
+{
+  "genres": {
+    "drift": ["Drift Phonk", "High Speed", "Racing", "Tokyo Street", "Phonk Drift"],
+    "house": ["Phonk House", "Danceable", "Four-on-the-floor", "Club Mix", "Groovy Phonk"],
+    "dark": ["Dark Phonk", "Shadow", "Underground", "Horrorcore", "Sinister Atmosphere"],
+    "memphis": ["Memphis Revival", "90s Tape Hiss", "Lo-fi Memphis", "Authentic 1990s Style"],
+    "wave": ["Phonk Wave", "Dreamy", "Synthwave Influence", "Liquid Phonk", "Ethereal"],
+    "chill": ["Chill Phonk", "Smooth", "Lo-fi Phonk", "Relaxing", "Ambient Phonk"]
+  },
+  "moods": {
+    "aggressive": ["Aggressive", "Brutal", "Violent", "Evil", "Hardcore", "Demonic"],
+    "melancholic": ["Sad", "Depressing", "Lonely", "Nostalgic", "Sorrowful"],
+    "energetic": ["Hype", "Power", "High Energy", "Intense", "Adrenaline"],
+    "mysterious": ["Eerie", "Ghostly", "Mystical", "Spooky", "Occult"]
+  },
+  "technical_audio": {
+    "bass": ["Heavy 808", "Distorted Bass", "Sub-bass Focus", "Slide Bass", "Punchy Kick"],
+    "vocal": ["Memphis Vocals", "Muffled Rap Samples", "Spooky Whispers", "Chopped and Screwed"],
+    "perc": ["Cowbell Dominant", "Sharp Snare", "Crisp Hi-hats", "Triple Hi-hats"],
+    "fx": ["Lo-fi Static", "Vinyl Crackle", "Gunshots", "Police Siren", "Crow Sound"]
+  },
+  "visual_vibes": {
+    "night": ["Night Drive", "Neon Lights", "Midnight", "Moonlight"],
+    "urban": ["Street Racing", "Abandoned Building", "Concrete Jungle", "Graffiti"]
+  }
+}
