@@ -1,9 +1,11 @@
 node_modules/
 dist/
 build/
+dist-frontend/
 *.log
 .DS_Store
 .env
+.env.local
 venv/
 __pycache__/
 *.pyc
@@ -15,3 +17,68 @@ backend/models/*.h5
 backend/models/*.pth
 backend/models/*.pkl
 *.egg-info/
+
+# Logs
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage
+*.lcov
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+.yarn-integrity
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# dotenv environment variable files
+.env.*
+!.env.example
+
+# Cache directories
+.cache
+.parcel-cache
+
+# Build outputs
+.next
+out
+.nuxt
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
