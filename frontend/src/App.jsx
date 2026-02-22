@@ -6,6 +6,7 @@ import PromptEngine from './components/PromptEngine';
 import MasteringAssistant from './components/MasteringAssistant';
 import Footer from './components/Footer';
 import WelcomeModal from './components/WelcomeModal';
+import AnnouncementBanner from './components/AnnouncementBanner';
 
 function App() {
   const [analysisData, setAnalysisData] = useState(null);
@@ -123,6 +124,9 @@ function App() {
           </motion.div>
         </div>
       </header>
+
+      {/* Announcement Banner */}
+      <AnnouncementBanner />
 
       {/* Main Layout - Basit Yatay Satırlar */}
       <main className="w-full max-w-[100%] p-4 space-y-4">

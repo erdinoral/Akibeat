@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import LegalModal from './LegalModal';
 import FeedbackModal from './FeedbackModal';
+import SupportSection from './SupportSection';
 
 function Footer() {
   const [activeModal, setActiveModal] = useState(null);
   const [showFeedback, setShowFeedback] = useState(false);
+  const [showSupport, setShowSupport] = useState(false);
 
   const openModal = (type) => {
     setActiveModal(type);
@@ -21,6 +23,14 @@ function Footer() {
 
   const closeFeedback = () => {
     setShowFeedback(false);
+  };
+
+  const openSupport = () => {
+    setShowSupport(true);
+  };
+
+  const closeSupport = () => {
+    setShowSupport(false);
   };
 
   return (
@@ -54,6 +64,13 @@ function Footer() {
           >
             Görüş ve Öneri
           </button>
+          <span className="text-gray-600">|</span>
+          <button
+            onClick={openSupport}
+            className="hover:text-white transition-colors duration-200 cursor-pointer"
+          >
+            💜 Destek
+          </button>
         </div>
         <div className="text-center mt-4 text-[0.7rem] text-gray-600">
           © 2026 Akiyom - Akibeat
@@ -68,6 +85,11 @@ function Footer() {
       {/* Feedback Modal */}
       {showFeedback && (
         <FeedbackModal onClose={closeFeedback} />
+      )}
+
+      {/* Support Section Modal */}
+      {showSupport && (
+        <SupportSection onClose={closeSupport} />
       )}
     </>
   );
